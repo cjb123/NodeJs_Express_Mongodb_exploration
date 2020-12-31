@@ -1,0 +1,4 @@
+db.dropCollection("dishes",(result)=>{
+                              console.log("Dropped Collection : "+ result)
+                              client.close()
+                          })
